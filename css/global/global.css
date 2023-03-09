@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  color: var(--cor-900);
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2,
+h3,
+p,
+ul,
+blockquote,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+img[src$=".jpg"] {
+  border-radius: 4px;
+}
