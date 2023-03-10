@@ -1,0 +1,16 @@
+.contato-lista li + li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.contato-lista li a {
+  display: flex;
+  align-items: start;
+  gap: 12px;
+}
+
+.contato-icons {
+  display: flex;
+  gap: 12px;
+  margin-left: 35px;
+}

@@ -4,6 +4,7 @@ main {
   padding: 20px;
   justify-content: center;
   gap: 80px;
+  margin-bottom: 60px;
 }
 
 .home-conteudo h1 {
