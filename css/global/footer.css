@@ -1,16 +1,30 @@
-.contato-lista li + li {
-  margin-top: 20px;
+.contato-lista {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+}
+
+.footer h2 {
+  grid-column: 1/-1;
   margin-bottom: 20px;
 }
 
 .contato-lista li a {
   display: flex;
-  align-items: start;
   gap: 12px;
 }
 
-.contato-icons {
-  display: flex;
-  gap: 12px;
-  margin-left: 35px;
+.contato-lista li a p:hover {
+  color: var(--rgba);
+}
+
+.contato-lista a ion-icon {
+  font-size: 24px;
+}
+
+@media (width < 800px) {
+  .contato-lista {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
 }

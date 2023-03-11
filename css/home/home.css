@@ -7,6 +7,10 @@ main {
   margin-bottom: 60px;
 }
 
+.home-conteudo {
+  text-align: center;
+}
+
 .home-conteudo h1 {
   margin-bottom: 20px;
 }
@@ -23,10 +27,28 @@ main {
   display: flex;
   gap: 20px;
   justify-content: center;
+  font-size: 24px;
+}
+
+.icon-list a {
+  background-color: var(--cor-900);
 }
 
 .home-imagem {
   max-width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+@media (width < 800px) {
+  main {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    justify-content: center;
+    gap: 80px;
+    margin-bottom: 60px;
+  }
+  .home-imagem {
+    display: none;
+  }
 }

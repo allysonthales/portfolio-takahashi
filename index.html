@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-BR" class="dark">
 
 <head>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,11 +16,26 @@
 
 <body>
   <header class="container">
+    <div class="idioma">
+      <img src="img/icons/en.svg" alt="">
+      <img src="img/icons/pt-br.svg" alt="">
+    </div>
     <nav>
       <ul class="menu-lista cor-900 font-1-sm">
-        <li><a href="">home</a></li>
-        <li><a href="">formação acadêmica</a></li>
-        <li><a href="">projetos</a></li>
+        <li><a href="./">home</a>
+
+        </li>
+        <li><a href="./formacao.html">formação acadêmica</a></li>
+        <li><a href="./projetos.html">projetos</a></li>
+        <li>
+          <div id="switch" onclick="toogleMode()">
+            <button>
+            </button>
+            <span>
+
+            </span>
+          </div>
+        </li>
       </ul>
     </nav>
   </header>
@@ -28,12 +43,18 @@
     <div class="home-conteudo">
       <h1 class="font-1-l cor-800">Olá 👋, Eu sou <span class="font-3-xl">Adriana Takahashi</span></h1>
       <p class="font-2-m cor-600">Professora Dra. na Universidade do Estado do Rio Grande do Norte.
-        <span class="cor-p800 font-2-m-b">Ênfase e m Teoria e Inteligência Computacional, Redes Neurais</span> e <span class="cor-p800 font-2-m-b">Processamento Digital de Imagem.</span>
+        <span class="cor-p800 font-2-m-b">Ênfase em Teoria e Inteligência Computacional, Redes Neurais</span> e <span class="cor-p800 font-2-m-b">Processamento Digital de Imagem.</span>
       </p>
-      <div class="icons-list">
-        <img src="img/icons/linkedin-icon.svg" alt="" width="24" height="24">
-        <img src="img/icons/instagram-glyph.svg" alt="" width="24" height="24">
-        <img src="img/icons/email-icon .svg" alt="" width="24" height="24">
+      <div class="icons-list ">
+        <a href="">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a>
+        <a href="">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+        <a href="">
+          <ion-icon name="mail-outline"></ion-icon>
+        </a>
       </div>
     </div>
     <div class="home-imagem">
@@ -42,29 +63,27 @@
 
   </main>
 
-  <footer class="container">
+  <footer class="container footer">
     <h2 class="font-1-l ">contato</h2>
     <ul class="contato-lista">
-      <li><a href="">
-          <img src="img/icons/email-icon .svg" alt="">
-          <p>adrianatakahashi@uern.br</p>
-        </a></li>
       <li>
         <a href="">
-          <img src="img/icons/location-icon.svg" alt="">
+          <ion-icon name="location-outline"></ion-icon>
           <p>
             Sala 206 - Departamento de Computação<br>Campus UERN Natal <br>Av. João Medeiros Filho 12121 <br>Natal-RN
           </p>
         </a>
       </li>
+      <li>
+        <a href="">
+          <ion-icon name="mail-outline"></ion-icon>
+          <p>adrianatakahashi@uern.br</p>
+        </a>
     </ul>
-    <div class="contato-icons">
-      <img src="img/icons/linkedin-icon.svg" alt="" width="24" height="24">
-      <img src="img/icons/instagram-glyph.svg" alt="" width="24" height="24">
-      <img src="img/icons/email-icon .svg" alt="" width="24" height="24">
-    </div>
-
   </footer>
+  <script src="./main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
 
 </html>

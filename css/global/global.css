@@ -3,10 +3,14 @@
 }
 body {
   margin: 0;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 60px;
+  padding-bottom: 60px;
   color: var(--cor-900);
   font-family: "Poppins", sans-serif;
+  background-image: var(--bg-url);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
 }
 h1,
 h2,

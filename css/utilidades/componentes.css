@@ -5,3 +5,62 @@
   margin-right: auto;
   margin-left: auto;
 }
+
+#switch {
+  position: relative;
+  width: 64px;
+  margin: 0 auto;
+  padding: 4px 0;
+}
+
+#switch button {
+  width: 32px;
+  height: 32px;
+  background: #fafafa no-repeat var(--bg-mode) center;
+  border: 1px solid var(--rgba);
+  border-radius: 50%;
+
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+
+  animation: slide-back 0.4s;
+  cursor: pointer;
+}
+
+.dark #switch button {
+  animation: slide-in 0.4s forwards;
+}
+
+#switch span {
+  display: block;
+  width: 64px;
+  height: 24px;
+
+  background: #fafafa;
+  /* stroke-color-dark-mode */
+
+  border: 1px solid #fafafa;
+  backdrop-filter: blur(4px);
+  border-radius: 9999px;
+}
+
+@keyframes slide-in {
+  from {
+    left: 0;
+  }
+  to {
+    left: 50%;
+  }
+}
+
+@keyframes slide-back {
+  from {
+    left: 50%;
+  }
+  to {
+    left: 0;
+  }
+}

@@ -10,66 +10,112 @@
   --cor-700: #404040;
   --cor-800: #262626;
   --cor-900: #171717;
+
+  --cor-p50: #fff1f2;
+  --cor-p100: #ffe4e6;
+  --cor-p200: #fecdd3;
+  --cor-p300: #fda4af;
+  --cor-p400: #fb7185;
+  --cor-p500: #f43f5e;
+  --cor-p600: #e11d48;
+  --cor-p700: #be123c;
+  --cor-p800: #9f1239;
+  --cor-p900: #881337;
+
+  --rgba: rgba(0, 0, 0, 0.5);
+  --color-hover: rgba(0, 0, 0, 0.5);
+  --bg-url: url(../../img/bg-desktop.jpg);
+  --bg-mode: url(../../img/icons/sun.svg);
 }
 
+.dark {
+  /* neutral */
+  --cor-50: #171717;
+  --cor-100: #262626;
+  --cor-200: #404040;
+  --cor-300: #525252;
+  --cor-400: #737373;
+  --cor-500: #a3a3a3;
+  --cor-600: #d4d4d4;
+  --cor-700: #e5e5e5;
+  --cor-800: #f5f5f5;
+  --cor-900: #fafafa;
+
+  --cor-p50: #881337;
+  --cor-p100: #9f1239;
+  --cor-p200: #be123c;
+  --cor-p300: #e11d48;
+  --cor-p400: #f43f5e;
+  --cor-p500: #fb7185;
+  --cor-p600: #fda4af;
+  --cor-p700: #fecdd3;
+  --cor-p800: #ffe4e6;
+  --cor-p900: #fff1f2;
+
+  --rgba: rgba(255, 255, 255, 0.5);
+
+  --bg-url: url(../../img/bg-desktop-dark.jpg);
+  --bg-mode: url(../../img/icons/moon.svg);
+}
 .cor-50 {
-  color: #fafafa;
+  color: var(--cor-50);
 }
 .cor-100 {
-  color: #f5f5f5;
+  color: var(--cor-100);
 }
 .cor-200 {
-  color: #e5e5e5;
+  color: var(--cor-200);
 }
 .cor-300 {
-  color: #d4d4d4;
+  color: var(--cor-300);
 }
 .cor-400 {
-  color: #a3a3a3;
+  color: var(--cor-400);
 }
 .cor-500 {
-  color: #737373;
+  color: var(--cor-500);
 }
 .cor-600 {
-  color: #525252;
+  color: var(--cor-600);
 }
 .cor-700 {
-  color: #404040;
+  color: var(--cor-700);
 }
 .cor-800 {
-  color: #262626;
+  color: var(--cor-800);
 }
 .cor-900 {
-  color: #171717;
+  color: var(--cor-900);
 }
 
 .cor-p50 {
-  color: #fff1f2;
+  color: var(--cor-p50);
 }
 .cor-p100 {
-  color: #ffe4e6;
+  color: var(--cor-p100);
 }
 .cor-p200 {
-  color: #fecdd3;
+  color: var(--cor-p200);
 }
 .cor-p300 {
-  color: #fda4af;
+  color: var(--cor-p300);
 }
 .cor-p400 {
-  color: #fb7185;
+  color: var(--cor-p400);
 }
 .cor-p500 {
-  color: #f43f5e;
+  color: var(--cor-p500);
 }
+
 .cor-p600 {
-  color: #e11d48;
+  color: var(--cor-p600);
 }
 .cor-p700 {
-  color: #be123c;
+  color: var(--cor-p700);
 }
 .cor-p800 {
-  color: #9f1239;
+  color: var(--cor-p800);
 }
 .cor-p900 {
-  color: #881337;
+  color: var(--cor-p900);
 }
