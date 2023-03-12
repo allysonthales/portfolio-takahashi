@@ -20,26 +20,16 @@ header {
   align-items: center;
 }
 
-.menu-lista li {
-  position: relative;
-  width: max-content;
-}
 .menu-lista li::after {
   content: "";
   display: block;
   width: 0;
   height: 2px;
   background-color: var(--cor-900);
-  position: absolute;
-  bottom: 0;
   transition: 0.5s;
 }
 .menu-lista li:hover:not(:last-child)::after {
   width: 100%;
-}
-
-.menu-lista a {
-  padding-top: 8px;
 }
 
 .menu-lista a:hover {
@@ -53,5 +43,8 @@ header {
 @media (width < 800px) {
   .font-1-sm {
     font-size: 1.5rem;
+  }
+  .menu-lista {
+    gap: 20px;
   }
 }
