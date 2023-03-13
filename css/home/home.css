@@ -41,7 +41,7 @@
 }
 
 @media (width < 800px) {
-  main {
+  .home {
     grid-template-columns: 1fr;
     padding: 20px;
     justify-content: center;

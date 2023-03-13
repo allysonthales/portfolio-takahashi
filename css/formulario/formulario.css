@@ -14,10 +14,9 @@
   margin-top: 20px;
 }
 .lista-item:nth-child(odd) {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: var(--transparente);
 }
-.lista-item + .lista-item {
-}
+
 .item-ano {
   justify-self: end;
 }

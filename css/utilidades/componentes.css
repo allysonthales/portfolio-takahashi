@@ -7,9 +7,10 @@
 }
 
 #switch {
+  display: inline-block;
   position: relative;
   width: 64px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 4px 0;
 }
 

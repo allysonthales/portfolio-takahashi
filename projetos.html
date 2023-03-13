@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Merriweather:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <title>Adriana Takahashi</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body id="projetos">
+  <header class="container">
+    <div class="idioma">
+      <img src="img/icons/en.svg" alt="">
+      <img src="img/icons/pt-br.svg" alt="">
+    </div>
+    <nav>
+      <ul class="menu-lista cor-900 font-1-sm">
+        <li>
+          <a href="./">home</a>
+        </li>
+        <li><a href="./formacao.html">formação acadêmica</a></li>
+
+        <li><a href="./projetos.html">projetos</a></li>
+        <li>
+          <div id="switch" onclick="toogleMode()">
+            <button>
+            </button>
+            <span>
+
+            </span>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="projetos container">
+    <h2 class="font-1-l">Projetos</h2>
+    <input checked type="radio" name="projetos" id="pesquisa" value="pesquisa">
+    <label for="pesquisa">pesquisa</label>
+    <input type="radio" name="projetos" id="extensao" value="extensao">
+    <label for="extensao">extensão</label>
+    <div class="projetos-conteudo" id="projeto-pesquisa">
+
+      <div class="projeto-item">
+        <span class="font-2-s item-ano">2012</span>
+        <p class="font-2-l item-nome">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, commodi.</p>
+        <p class="font-2-s item-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum placeat ducimus expedita temporibus quibusdam sunt architecto minus vel eaque consequatur aspernatur ut quia recusandae nihil ipsa, quae ipsum, nam natus?</p>
+        <p class="item-integrantes">integrantes</p>
+      </div>
+    </div>
+    <div class="projetos-conteudo" id="projeto-extensao">
+      <div class="projeto-item">
+        <span class="font-2-s item-ano">2012</span>
+        <p class="font-2-l item-nome">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, commodi.</p>
+        <p class="font-2-s item-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum placeat ducimus expedita temporibus quibusdam sunt architecto minus vel eaque consequatur aspernatur ut quia recusandae nihil ipsa, quae ipsum, nam natus?</p>
+        <p class="item-integrantes">integrantes</p>
+      </div>
+      <div class="projeto-item">
+        <span class="font-2-s item-ano">2012</span>
+        <p class="font-2-l item-nome">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illum, commodi.</p>
+        <p class="font-2-s item-descricao">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum placeat ducimus expedita temporibus quibusdam sunt architecto minus vel eaque consequatur aspernatur ut quia recusandae nihil ipsa, quae ipsum, nam natus?</p>
+        <p class="item-integrantes">integrantes</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="container footer">
+    <h2 class="font-1-l ">contato</h2>
+    <ul class="contato-lista">
+      <li>
+        <a href="">
+          <ion-icon name="location-outline"></ion-icon>
+          <p>
+            Sala 206 - Departamento de Computação<br>Campus UERN Natal <br>Av. João Medeiros Filho 12121 <br>Natal-RN
+          </p>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <ion-icon name="mail-outline"></ion-icon>
+          <p>adrianatakahashi@uern.br</p>
+        </a>
+    </ul>
+  </footer>
+  <script src="./main.js"></script>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

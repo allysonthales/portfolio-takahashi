@@ -24,6 +24,8 @@
 
   --rgba: rgba(0, 0, 0, 0.5);
   --color-hover: rgba(0, 0, 0, 0.5);
+
+  --transparente: rgba(0, 0, 0, 0.05);
   --bg-url: url(../../img/bg-desktop.jpg);
   --bg-mode: url(../../img/icons/sun.svg);
 }

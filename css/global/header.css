@@ -15,6 +15,7 @@ header {
 
 .menu-lista {
   display: flex;
+  flex-wrap: wrap;
   gap: 40px;
   justify-content: center;
   align-items: center;
@@ -36,15 +37,37 @@ header {
   color: var(--rgba);
 }
 
-.menu-lista li:last-child {
+.menu-lista a:last-child {
   cursor: pointer;
 }
 
 @media (width < 800px) {
   .font-1-sm {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .menu-lista {
-    gap: 20px;
+    gap: 12px;
   }
+}
+
+@media (width < 800px) {
+  header {
+    margin-bottom: 20px;
+  }
+}
+@media (width < 600px) {
+  header {
+    margin-bottom: 12px;
+  }
+  .menu-lista {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .menu-lista :last-child {
+    order: -1;
+  }
+  /* .menu-lista li {
+    order: 2;
+  } */
 }
