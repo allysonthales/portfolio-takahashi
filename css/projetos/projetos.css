@@ -2,8 +2,9 @@
   padding: 20px;
 }
 
-.projetos h2 {
+.projetos h1 {
   margin-bottom: 40px;
+  text-transform: uppercase;
 }
 
 .projetos label {
