@@ -7,7 +7,7 @@
 
 .lista-item {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr auto;
   background-color: rgba(0, 0, 0, 0.02);
   padding: 20px;
   border-radius: 4px;
@@ -17,11 +17,7 @@
   background-color: var(--transparente);
 }
 
-.item-ano {
-  justify-self: end;
-}
-
-.item-texto {
+.item-local {
   grid-column: 1/-1;
 }
 

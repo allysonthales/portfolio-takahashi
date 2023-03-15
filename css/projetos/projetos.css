@@ -64,27 +64,26 @@
 }
 
 #pesquisa:checked ~ #projeto-pesquisa,
-#extensao:checked ~ #projeto-extensao {
+#extensao:checked ~ #projeto-extensao,
+#ensino:checked ~ #projeto-ensino {
   display: block;
 }
 
 .projeto-item {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr auto;
   padding: 20px;
   background-color: var(--transparente);
   margin-top: 20px;
   border-radius: 4px;
+  align-items: center;
+  gap: 10px 40px;
 }
-#projetos .projeto-item .item-ano {
-  justify-self: start;
-}
-.projeto-item .item-nome,
-.projeto-item .item-descricao,
-.projeto-item .item-integrantes {
+
+.projeto-item .item-coordenadores {
   grid-column: 1/-1;
 }
 
-label {
+.proeto label {
   display: inline-block;
 }

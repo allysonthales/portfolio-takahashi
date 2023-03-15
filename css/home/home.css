@@ -1,9 +1,8 @@
 .home {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   padding: 20px;
   justify-content: center;
-  gap: 80px;
   margin-bottom: 60px;
 }
 

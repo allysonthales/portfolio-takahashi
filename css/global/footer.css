@@ -13,12 +13,21 @@
   display: flex;
   gap: 12px;
 }
+.contato-lista .location {
+  display: flex;
+  gap: 12px;
+  align-items: start;
+}
+
+.contato-lista li ion-icon {
+  margin-top: 2px;
+}
 
 .contato-lista li a p:hover {
   color: var(--rgba);
 }
 
-.contato-lista a ion-icon {
+.contato-lista li ion-icon {
   font-size: 24px;
 }
 
