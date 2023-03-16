@@ -8,6 +8,7 @@
 }
 
 .projetos label {
+  display: inline-block;
   color: var(--cor-600);
   background-color: var(--cor-200);
   padding: 12px 16px;
